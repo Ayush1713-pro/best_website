@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.85), rgba(118,0,255,0.85)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    padding-left: 8%;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3753;
+}
+.content p{
+    font-size: 20px;
+}
+
+.launch-time{
+    top: 57%;
+    padding-top: 10px;
+    position: absolute;
+    display: flex;
+    padding-left: 8%;
+}
+.launch-time div{
+    flex-basis: 100px;
+    margin-left: 20px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.icons{
+    width: 100%;
+    top: 90%;
+    position: absolute;
+    text-align: center;
+}
+.icons img{
+    cursor: pointer;
+    margin-right: 70px;
+}
+/* Button Style */
+.button {
+    background-color: blueviolet; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align inline */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Cursor pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Button Hover Effect */
+  .button:hover {
+    background-color: purple; /* Slightly darker green on hover */
+  }
+
+  
